@@ -147,3 +147,4 @@ REST_FRAMEWORK = {
     ],
 }
 
+TEST_DISCOVER_PATTERN = "test-*"

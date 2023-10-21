@@ -7,13 +7,13 @@ class Booking(models.Model):
     No_of_guests = models.IntegerField()
     BookingDate = models.DateTimeField()
 
-    def __str__(self):
-        return self.Name
+    def __str__(self) -> str:
+        return f'{self.Name} : ({str(self.No_of_guests)} guests)'
 
 class MenuItem(models.Model):
     Title = models.CharField(max_length=255)
     Price = models.DecimalField(max_digits=10, decimal_places=2)
     Inventory = models.IntegerField()
 
-    def __str__(self):
-        return self.Title
+    def __str__(self) -> str:
+        return f'{self.Title} : {str(self.Price)}'
