@@ -10,8 +10,15 @@ Make sure to complete the following before any test:
 3. Make sure to execute the project in a dev environment `pipenv shell`.
 4. Make sure to install the Pipfile dependencies `pipenv install`.
 5. CD to my project's `./littlelemon/` directory.
-6. Run the server `python3 manage.py runserver`.
-
+6. Make adjustments to the project's `settings.py` file to suit your local MySQL database, which includes:
+     
+    <pre>'default': {
+        'NAME': '{your DB name}',
+        'USER': '{your root user}',
+        'PASSWORD': '{your root user password}',
+        'HOST': '{Your DB URL, default is: 127.0.0.1}',
+        'PORT': '{Your DB port, default is: 3306}'
+    }</pre>
 Consider the following admin credentials:
 
 <table>
