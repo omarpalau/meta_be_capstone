@@ -6,11 +6,35 @@ Follow these steps to grade my project.
 
 Make sure to complete the following before any test:
 
-1. Clone my repo
-2. Make sure to execute the project in a dev environment `pipenv shell`.
-3. Make sure to install the Pipfile dependencies `pipenv install`.
-4. CD to my project's `./littlelemon/` directory
-5. Run the server `python3 manage.py runserver`
+1. Clone the repository: `https://github.com/omarpalau/meta_be_capstone.git`.
+3. Make sure to execute the project in a dev environment `pipenv shell`.
+4. Make sure to install the Pipfile dependencies `pipenv install`.
+5. CD to my project's `./littlelemon/` directory.
+6. Run the server `python3 manage.py runserver`.
+
+Consider the following admin credentials:
+
+<table>
+  
+  <tr>
+    <th>
+      username:  
+    </th>
+    <td>
+      `root`
+    </td>
+  </tr>
+
+  <tr>
+    <th>
+      password:  
+    </th>
+    <td>
+      `root`
+    </td>
+  </tr>
+  
+</table>
 
 ## API Endpoints
 
@@ -20,10 +44,10 @@ Consider the following endpoints:
 |-|-|-|
 |127.0.0.1:8000/|[/admin/](http://127.0.0.1:8000/admin/)||
 ||[/auth/](http://127.0.0.1:8000/auth/)||
-||[/restaurant/](http://127.0.0.1:8000/restaurant/)|[/menu/](http://127.0.0.1:8000/menu/)|
-|||[/menu/{num}](http://127.0.0.1:8000/menu/1) (...1,2,3)|
-|||[/booking/](http://127.0.0.1:8000/booking/)|
-|||[/api-token-auth/](http://127.0.0.1:8000/api-token-auth/)|
+||[/restaurant/](http://127.0.0.1:8000/restaurant/)|[/menu/](http://127.0.0.1:8000/restaurant/menu/)|
+|||[/menu/{num}](http://127.0.0.1:8000/restaurant/menu/1) (...1,2,3)|
+|||[/booking/](http://127.0.0.1:8000/restaurant/booking/)|
+|||[/api-token-auth/](http://127.0.0.1:8000/restaurant/api-token-auth/)|
 
 
 # Thank you!!!
