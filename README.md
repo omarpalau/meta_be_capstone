@@ -6,13 +6,15 @@ Follow these steps to grade my project.
 
 Make sure to complete the following before any test:
 
-1. Clone the repository: `https://github.com/omarpalau/meta_be_capstone.git`.
+1. Clone the repository: `git clone https://github.com/omarpalau/meta_be_capstone.git`.
 3. Make sure to execute the project in a dev environment `pipenv shell`.
 4. Make sure to install the Pipfile dependencies `pipenv install`.
 5. CD to my project's `./littlelemon/` directory.
 6. Run the server `python3 manage.py runserver`.
 
 Consider the following admin credentials:
+
+> You will need this to consult the admin's auth token for the CRUD operations.
 
 <table>
   
