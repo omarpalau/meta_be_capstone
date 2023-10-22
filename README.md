@@ -43,7 +43,7 @@ Consider the following endpoints:
 |Local URL|Project Endpoint|API Endpoint|
 |-|-|-|
 |127.0.0.1:8000/|[/admin/](http://127.0.0.1:8000/admin/)||
-||[/auth/](http://127.0.0.1:8000/auth/)||
+||<p>[/auth/](http://127.0.0.1:8000/auth/)</p><p>Consider the [djsoer documentation](https://djoser.readthedocs.io/en/latest/token_endpoints.html) for a full list of endpoints</p>||
 ||[/restaurant/](http://127.0.0.1:8000/restaurant/)|[/menu/](http://127.0.0.1:8000/restaurant/menu/)|
 |||[/menu/{num}](http://127.0.0.1:8000/restaurant/menu/1) (...1,2,3)|
 |||[/booking/](http://127.0.0.1:8000/restaurant/booking/)|
