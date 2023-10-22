@@ -14,8 +14,6 @@ Make sure to complete the following before any test:
 
 Consider the following admin credentials:
 
-> You will need this to consult the admin's auth token for the CRUD operations.
-
 <table>
   
   <tr>
@@ -37,6 +35,8 @@ Consider the following admin credentials:
   </tr>
   
 </table>
+
+> You will need this to consult the admin's auth token for the CRUD operations.
 
 ## API Endpoints
 
